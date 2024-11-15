@@ -29,6 +29,20 @@ go mod tidy
 ### Model Setup
 The application uses a `Weather` struct defined in `model/model.go`. Ensure you have the correct structure to match the API response.
 
+## Project Structure
+
+```
+weather-forecast-cli/
+│
+├── main.go                  # Main application code
+├── model/
+│   └── model.go             # Contains the Weather struct to parse the JSON response
+├── main_test.go             # Test cases for the application
+├── go.mod                   # Go module file
+└── README.md                # Project documentation
+```
+
+
 ## Usage
 
 Run the application with a location argument:
