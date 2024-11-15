@@ -45,16 +45,38 @@ weather-forecast-cli/
 
 ## Usage
 
-Run the application with a location argument:
-```bash
-go run main.go "City, Country"
-```
-If no location is specified, it defaults to **Kenya**.
+1. **Run the application**:
 
-Example:
-```bash
-go run main.go "Paris, France"
-```
+    ```bash
+    go run main.go [location]
+    ```
+
+    For example:
+
+    ```bash
+    go run main.go Nairobi
+    ```
+
+    If no location is provided, it defaults to "Kenya".
+
+2. **Build the application**:
+
+    ```bash
+    go build -o weather-cli main.go
+    ```
+
+3. **Execute the built application**:
+
+    ```bash
+    ./weather-cli Nairobi
+    ```
+
+4. **Run the tests**:
+
+    ```bash
+    go test -v
+    ```
+
 
 ## Configuration
 Replace the API key in the URL with your own from `weatherapi.com`:
