@@ -25,6 +25,17 @@ Install the required dependencies by running:
 ```bash
 go mod tidy
 ```
+- [fatih/color](https://github.com/fatih/color) - For colored output in the terminal.
+- Standard Go libraries such as `net/http`, `encoding/json`, `os`, and `time`.
+
+
+## Environment Variables
+
+Set the following environment variables:
+
+- `WEATHER_API_URL` (optional): If you are using a different API endpoint for testing or production.
+- `WEATHER_API_KEY`: Your WeatherAPI key.
+
 
 ### Model Setup
 The application uses a `Weather` struct defined in `model/model.go`. Ensure you have the correct structure to match the API response.
