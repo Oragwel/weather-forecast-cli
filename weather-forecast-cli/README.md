@@ -115,6 +115,14 @@ Paris, France: 15°C, Clear
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
+## Contributing
+
+If you find a bug or have a suggestion for improvements, please feel free to open an issue or submit a pull request. Contributions are always welcome!
+
+## Contributor
+
+- **Otieno Ragwel Rogers**
+
 ## Acknowledgements
 - This application uses the [WeatherAPI](https://www.weatherapi.com/) service.
 - [Fatih Color](https://github.com/fatih/color) is used for color-coded CLI outputs.
